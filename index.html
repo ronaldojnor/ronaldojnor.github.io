@@ -32,7 +32,7 @@
   <section class="experiencia" id="experiencia" aria-label="Experiência">
     <h2 class="subtitulo">Experiência</h2>
     <div>
-      <p class="experiencia-texto">Desenvolvo pequenos projetos pessoais utilizando <strong>Java</strong>, <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.</p>
+      <p class="experiencia-texto">Desenvolvo pequenos projetos pessoais utilizando <strong>Java</strong>, <strong>PHP</strong>, <strong>Python</strong>, <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.</p>
       
       <div class="empresa">
         <span class="empresa-ano">09/2024  Presente</span>
@@ -159,9 +159,13 @@
         <li><a href="https://api.whatsapp.com/send?phone=5541996158225">WhatsApp</a></li>
         <li><a href="https://www.instagram.com/ronaldojnor/">Instagram</a></li>
       </ul>
-      <p class="footer-copy">Ronaldo Junior. 2023</p>
+      <p class="footer-copy">Ronaldo Junior. <span id="ano"></span></p>
     </div>
   </footer>
+
+  <script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
 
 </body>
 
